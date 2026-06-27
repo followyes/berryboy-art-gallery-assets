@@ -5885,12 +5885,14 @@
 				"index":0
 			},
 			"pbrMetallicRoughness":{
-				"baseColorTexture":{
-					"index":1
-				},
-				"metallicFactor":0,
+				"baseColorFactor":[
+					0.800000011920929,
+					0.800000011920929,
+					0.800000011920929,
+					1
+				],
 				"metallicRoughnessTexture":{
-					"index":2
+					"index":1
 				}
 			}
 		},
@@ -5901,14 +5903,14 @@
 			},
 			"name":"Fala",
 			"normalTexture":{
-				"index":3
+				"index":2
 			},
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":4
+					"index":3
 				},
 				"metallicRoughnessTexture":{
-					"index":5
+					"index":4
 				}
 			}
 		}
@@ -7017,10 +7019,6 @@
 		{
 			"sampler":0,
 			"source":4
-		},
-		{
-			"sampler":0,
-			"source":5
 		}
 	],
 	"images":[
@@ -7031,13 +7029,8 @@
 		},
 		{
 			"mimeType":"image/png",
-			"name":"Substance_graph_ambientocclusion",
-			"uri":"Substance_graph_ambientocclusion.png"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"Substance_graph_roughness",
-			"uri":"Substance_graph_roughness.png"
+			"name":"Substance_graph_metallic.png-Substance_graph_roughness.png",
+			"uri":"Substance_graph_metallic.png-Substance_graph_roughness.png.png"
 		},
 		{
 			"mimeType":"image/png",
@@ -11412,7 +11405,7 @@
 	"buffers":[
 		{
 			"byteLength":46168,
-			"uri":"Wall_segments.bin"
+			"uri":"Wall_segment.bin"
 		}
 	]
 }
